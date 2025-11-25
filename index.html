@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Best Fare Travels - Book Your Flight Today</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -10,12 +10,21 @@
     <!-- removed top info bar completely -->
 
     <!-- Header & Navigation -->
-    <header class="header">
+    <header class="header" role="banner">
         <div class="header-content">
             <div class="logo">
-                <img src="navbar.png" alt="Best Fare Travels Logo">
+                <a href="#home"><img src="NAVBAR.png" alt="Best Fare Travels Logo"></a>
             </div>
-            <nav class="navigation">
+
+            <!-- NAV TOGGLE (checkbox-hack) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+            <label for="nav-toggle" class="hamburger" aria-hidden="true" aria-label="Open navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </label>
+
+            <nav class="navigation" role="navigation" aria-label="Primary Navigation">
                 <a href="#home" class="nav-link">Home</a>
                 <a href="#about" class="nav-link">About Us</a>
                 <a href="#flights" class="nav-link">Flights</a>
@@ -221,5 +230,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
