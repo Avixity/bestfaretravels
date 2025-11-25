@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Fare Travels - Book Your Flight Today</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- removed top info bar completely -->
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="/images/navbar.png" alt="Best Fare Travels Logo">
+            </div>
+            <nav class="navigation">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#flights" class="nav-link">Flights</a>
+                <a href="#specials" class="nav-link">Specials</a>
+                <a href="#visa" class="nav-link">Visa Information</a>
+                <a href="#contact" class="nav-link">Contact Us</a>
+                <a href="#blog" class="nav-link">Travel Blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Booking Form -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <span class="hero-subtitle">Best Fares • Premium Service</span>
+                <h1>Your Journey Starts Here</h1>
+                <p class="hero-description">Find the perfect flights at unbeatable prices with our expert travel service</p>
+                <a href="https://wa.me/918375991010" class="cta-call">CONTACT US</a>
+            </div>
+            <div class="booking-form-container">
+                <form class="booking-form" id="bookingForm">
+                    <h3>Find Your Flights</h3>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="departure">Date of Departure *</label>
+                            <input type="date" id="departure" name="departure" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="return">Date of Return *</label>
+                            <input type="date" id="return" name="return" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="departCity">City of Departure *</label>
+                            <input type="text" id="departCity" name="departCity" placeholder="City of Departure" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="arrivalCity">City of Arrival *</label>
+                            <input type="text" id="arrivalCity" name="arrivalCity" placeholder="City of Arrival" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="remarks">Airline Choice (if any) / Remarks *</label>
+                        <textarea id="remarks" name="remarks" placeholder="Airline Choice (if any) / Remarks..." rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Find Travel Perfection Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2>Find <span class="highlight">Travel Perfection</span></h2>
+            <p class="section-description">Discover your perfect journey with Best Fare Travels! We help you find the ideal flights for every budget. Travel smart and affordably with us!</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">✈</div>
+                    <h3>Share Your Travel Locations</h3>
+                    <p>Let us know your travel destinations, and we'll handle the rest by finding the perfect flights for you.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">→</div>
+                    <h3>Tell Us Your Travel Preferences</h3>
+                    <p>Share your preferences, and we'll recommend the best flight class and schedule for you.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">★</div>
+                    <h3>Your Trusted Travel Partner</h3>
+                    <p>We are a 100% trusted agency for booking flights worldwide with exceptional customer service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Destinations Section -->
+    <section class="destinations-section">
+        <div class="container">
+            <span class="section-label">Top Destinations</span>
+            <h2>Explore <span class="highlight">Popular Destinations</span></h2>
+            <p class="section-description">Discover amazing destinations with Best Fare Travels, offering unbeatable deals and seamless booking. Let us make your journey unforgettable with our expert travel services.</p>
+            
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="Images/BALI.jpg" alt="Destination 1">
+                    <h3>Bali</h3>
+                    <p>Indonesia</p>
+                </div>
+                <div class="destination-card">
+                    <img src="Images/TOKYO.jpg" alt="Destination 2">
+                    <h3>Tokyo</h3>
+                    <p>Japan</p>
+                </div>
+                <div class="destination-card">
+                    <img src="Images/PARIS.jpg" alt="Destination 3">
+                    <h3>Paris</h3>
+                    <p>France</p>
+                </div>
+                <div class="destination-card">
+                    <img src="Images/DUBAI.jpg" alt="Destination 4">
+                    <h3>Dubai</h3>
+                    <p>UAE</p>
+                </div>
+                <div class="destination-card">
+                    <img src="Images/SINGAPORE.JPG" alt="Destination 5">
+                    <h3>Singapore</h3>
+                    <p>Singapore</p>
+                </div>
+                <div class="destination-card">
+                    <img src="Images/PHUKET.jpg" alt="Destination 6">
+                    <h3>Phuket</h3>
+                    <p>Thailand</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Book Your Journey?</h2>
+            <p>Get expert travel consultation from our team</p>
+            <a href="https://wa.me/918375991010" class="cta-call">CONTACT US</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="/images/main.png" alt="Best Fare Travels" class="footer-logo">
+                <p>Your trusted partner for affordable travel solutions worldwide.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#flights">Flights</a></li>
+                    <li><a href="#specials">Specials</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#visa">Visa Information</a></li>
+                    <li><a href="#packages">Tour Packages</a></li>
+                    <li><a href="#hotels">Hotel Bookings</a></li>
+                    <li><a href="#travel-blog">Travel Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p><a href="https://wa.me/918375991010">(+91) 83759 91010</a></p>
+                <p><a href="mailto:sid@bestfaretravel.in">sid@bestfaretravel.in</a></p>
+                <p>Mon-Fri: 9am - 6pm IST</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Best Fare Travels. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms & Conditions</a>
+                <a href="#sitemap">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
